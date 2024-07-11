@@ -1,0 +1,108 @@
+*{
+    /* background: #e9e9e9; */
+    margin: 0;
+    
+}
+
+.banner{
+    background: #2042B6;
+    color: white;
+    min-height: 100vh;
+}
+
+.top-nav nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 0rem;
+    padding-bottom: 1rem;
+    /* background: #4f2ced; */
+}
+.top-nav nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-nav nav ul li{
+    list-style: none;
+    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+}
+.top-nav nav ul li p{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 25px;
+    padding: 0.9rem 1.4rem;
+    border: 1px solid white;
+    margin-right: 10px;
+   
+}
+#menuBar{
+    cursor: pointer;
+}
+/* ---------------------------------------------------- */
+
+.sub-menu{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    max-height: 0px;
+    width: 318px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+    
+}
+
+.sub-menu.active{
+    max-height: 520px;
+}
+.sub-menu nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 14px;
+    margin-left: 0;
+    padding-left: 20px;
+}
+.sub-menu nav ul li{
+    list-style: none;
+    margin-right: 12px;
+    display: flex;
+    align-items: center;
+
+}
+.sub-menu nav ul li p{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 25px;
+    padding: 0.9rem 1.4rem;
+    border: 1px solid rgb(56, 86, 205);
+    background-color: rgb(56, 86, 205);
+    margin-right: 5px;
+   
+}
+
+/* ---------------------------------------------------- */
+.sub-menu ul{
+    margin-left: 0;
+    padding-left: 0px;
+}
+.sub-menu .inner-sub-menu li{
+    list-style: none;
+    margin-right: 1rem;
+    display: flex;
+    color: black;
+    align-items: center;
+    margin-left: 0;
+    padding-left: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
